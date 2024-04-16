@@ -7,9 +7,9 @@ const page = () => {
       <div className="flex flex-col justify-around mt-4 md:text-4xl">
       <p className="my-5">Szojka, Z. A., Nicol, A., <span className="font-bold">Frenguelli, N. D.</span>, Rooy, D. L., & Henderson, H. (2022). <br></br>The impact of multiple interviews on the accuracy and narrative coherence of children's memories. <br></br><span className="italic">Psychology, Crime & Law, 28</span>(10), 980-1003.</p>
       <p className="my-5">Hegemony and right-wing extremism: Exploring constructions of masculinity in right wing terrorist manifestos (with reviewers at Critical Studies in Terrorism).</p>
-      <p className="my-5">Transphobia in the Buffalo Shooter's Manifesto. <br></br>Published by <a href="https://voxpol.eu/transphobia-in-the-buffalo-shooters-manifesto/" className="text-colour-link underline decoration-dotted hover:font-bold">VOX-Pol Blog</a>.</p>
-      <p className="my-5">My wish to be a #Tradwife: An introduction to tradwife memes on Whisper. <br></br>Published by <a href="https://gnet-research.org/2023/05/18/mywishtobeatradwife/" className="text-colour-link underline decoration-dotted hover:font-bold">GNET Insights</a>.</p>
-      <p className="my-5">Tech Against Terrorism Podcast: <br></br><a href="https://podcast.techagainstterrorism.org/1684819/13708275-what-is-the-tradwives-movement" className="text-colour-link underline decoration-dotted hover:font-bold">What is the #tradwives movement?</a></p>
+      <p className="my-5">Transphobia in the Buffalo Shooter's Manifesto. <br></br>Published by <a href="https://voxpol.eu/transphobia-in-the-buffalo-shooters-manifesto/" target="_blank" className="text-colour-link underline decoration-dotted hover:font-bold">VOX-Pol Blog</a>.</p>
+      <p className="my-5">My wish to be a #Tradwife: An introduction to tradwife memes on Whisper. <br></br>Published by <a href="https://gnet-research.org/2023/05/18/mywishtobeatradwife/" target="_blank" className="text-colour-link underline decoration-dotted hover:font-bold">GNET Insights</a>.</p>
+      <p className="my-5">Tech Against Terrorism Podcast: <br></br><a href="https://podcast.techagainstterrorism.org/1684819/13708275-what-is-the-tradwives-movement" target="_blank" className="text-colour-link underline decoration-dotted hover:font-bold">What is the #tradwives movement?</a></p>
       </div>
     </div>
   )
