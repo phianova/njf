@@ -11,7 +11,7 @@ export default function Home() {
         <p>Frenguelli</p>
         </div>
       <p className="mt-10 md:mt-20 text-3xl md:text-4xl">Hello and thank you for checking out my online CV.</p>
-      <p className="mt-3 text-3xl md:text-4xl">Here you will find my <a href="/cv" className="underline decoration-dotted hover:font-bold hover:text-colour-link">formal CV</a>, my <a href="/publications" className="underline decoration-dotted hover:font-bold hover:text-colour-link">publication history</a>, some information on the <a href="/research" className="underline decoration-dotted hover:font-bold hover:text-colour-link">projects</a> I'm involved in, and some examples of the <a href="/graphs" className="underline decoration-dotted hover:font-bold hover:text-colour-link">graphs</a> I have produced during my research.</p>
+      <p className="mt-3 text-3xl md:text-4xl">Here you will find my <a href="/cv" className="underline decoration-dotted hover:text-colour-link">formal CV</a>, my <a href="/publications" className="underline decoration-dotted hover:text-colour-link">publication history</a>, some information on the <a href="/research" className="underline decoration-dotted hover:text-colour-link">projects</a> I'm involved in, and some examples of the <a href="/graphs" className="underline decoration-dotted hover:text-colour-link">graphs</a> I have produced during my research.</p>
     </main>
   );
 }
