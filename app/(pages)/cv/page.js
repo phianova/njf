@@ -4,6 +4,7 @@ const page = () => {
     return (
         <div className="flex flex-col min-h-screen mx-auto mt-10 sm:mt-32 lg:mt-40 mb-20 w-10/12">
             <h1 className="text-colour-headings text-4xl md:text-5xl font-bold">CV</h1>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="my-2">
                 <h1 className="text-colour-headings text-3xl font-bold mb-3">Education</h1>
                 <p className="font-bold">PhD, Criminology (2021 - ongoing)</p>
@@ -13,7 +14,7 @@ const page = () => {
                 <p className="font-bold">Undergraduate Degree (2015 - 2018)</p>
                 <p className="ml-2 my-2">BSc (Hons) Criminology and Psychology (First Class) from Royal Holloway, University of London</p>
             </div>
-            <div className="my-2">
+            <div className="my-2 row-span-2">
                 <h1 className="text-colour-headings text-3xl font-bold mb-3">Research History</h1>
                 <p className="font-bold">Undergraduate Research Assistant (2015 - 2017)</p>
                 <p className="ml-2 my-2">Sorted and catalogued police transcripts of interviews with child victims for analysis</p>
@@ -56,7 +57,7 @@ const page = () => {
                 <p className="font-bold">Society for Terrorism Research, 2023</p>
                 <p className="ml-2 my-2">Presenting: An exploration of #TradWife content on Pinterest and Whisper</p>
             </div>
-            <div className="my-2">
+            <div className="my-2 row-span-2">
                 <h1 className="text-colour-headings text-3xl font-bold mb-3">Work Experience</h1>
                 <p className="font-bold">Senior Teaching Assistant, Swansea University (September 2022 - Present)</p>
                 <ul className="ml-2">
@@ -94,6 +95,7 @@ const page = () => {
                     <li className="my-2">Simple Italian</li>
                     <li className="my-2">Basic Welsh</li>
                 </ul>
+            </div>
             </div>
         </div>
     )
