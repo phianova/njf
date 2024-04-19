@@ -15,7 +15,7 @@ const atkinson = Atkinson_Hyperlegible({
 })
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <body className={atkinson.className + " bg-colour-bg text-colour-text text-2xl scroll-smooth"}>
         <MobileMenu />
         <Navbar />
