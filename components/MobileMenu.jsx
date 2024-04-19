@@ -26,12 +26,12 @@ const MobileMenu = () => {
             </button>
         </div>
     <div className="hidden flex-col" id="mobile-menu">
-      <a href="/" className="text-colour-link py-1 border-b border-colour-link border-opacity-40">Home</a>
-      <a href="/about" className="text-colour-link py-1 border-b border-colour-link border-opacity-40">About</a>
-      <a href="/research" className="text-colour-link py-1 border-b border-colour-link border-opacity-40">Research</a>
-      <a href="/publications" className="text-colour-link py-1 border-b border-colour-link border-opacity-40">Publications & Interviews</a>
-      <a href="/graphs" className="text-colour-link py-1 border-b border-colour-link border-opacity-40">Graphs</a>
-      <a href="/cv" className="text-colour-link py-1 border-b border-colour-link border-opacity-40">CV</a>
+      <a href="/njf/" className="text-colour-link py-1 border-b border-colour-link border-opacity-40">Home</a>
+      <a href="/njf/about" className="text-colour-link py-1 border-b border-colour-link border-opacity-40">About</a>
+      <a href="/njf/research" className="text-colour-link py-1 border-b border-colour-link border-opacity-40">Research</a>
+      <a href="/njf/publications" className="text-colour-link py-1 border-b border-colour-link border-opacity-40">Publications & Interviews</a>
+      <a href="/njf/graphs" className="text-colour-link py-1 border-b border-colour-link border-opacity-40">Graphs</a>
+      <a href="/njf/cv" className="text-colour-link py-1 border-b border-colour-link border-opacity-40">CV</a>
     </div>
     </div>
   )
